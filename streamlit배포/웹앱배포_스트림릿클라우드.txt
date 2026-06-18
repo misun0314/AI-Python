@@ -14,4 +14,4 @@
 5. 하단의 [Deploy!] 버튼 클릭
 6. 고유한 웹 주소(URL)와 함께 대시보드가 실시간으로 배포(이 URL을 주변에 공유)
 
-https://ai-python-kace6w2suatpuzm3rmtbh3.streamlit.app/
+https://ai-python-twjeuxkhgheealgjvva6kv.streamlit.app/
