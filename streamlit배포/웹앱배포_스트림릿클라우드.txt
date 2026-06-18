@@ -1,0 +1,17 @@
+
+1단계. 깃허브에 코드 올리기
+1. app.py(대시보드 소스 코드)
+2. requirements.txt(서버가 설치해야 할 라이브러리 목록)
+
+2단계. Streamlit Cloud 연동 및 배포
+1. https://share.streamlit.io/ 접속
+2. [Continue with GitHub]를 눌러 로그인 및 권한 연동을 진행
+3. 메인 화면 우측 상단의 [Create app] 버튼 클릭
+4. 배포 설정 화면에서 다음과 같이 입력
+  - Repository: 방금 만든 GitHub 저장소 선택
+  - Branch: 보통 main 또는 master 선택
+  - Main file path: app.py 입력
+5. 하단의 [Deploy!] 버튼 클릭
+6. 고유한 웹 주소(URL)와 함께 대시보드가 실시간으로 배포(이 URL을 주변에 공유)
+
+https://ai-python-kace6w2suatpuzm3rmtbh3.streamlit.app/

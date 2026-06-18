@@ -1,0 +1,12 @@
+배포앱.exe 만들기
+1단계 : 1단계: 빌드 전용 진입점 파일(run_app.py) 만들기
+2단계 : PyInstaller로 빌드하기
+pip install pyinstaller
+pyinstaller --noconfirm --onedir --clean --copy-metadata streamlit --collect-all streamlit --collect-all plotly --collect-all pandas --collect-all seaborn --hidden-import=streamlit.runtime.scriptrunner.magic_funcs --hidden-import=streamlit.runtime run_app.py  (필요한 모듈 설치되도록 빌드)
+3단계 : 빌드 후 파일 복사
+1. dist/run_app/run_app.exe 파일 생성됨
+2. dist/run_app/_internal 경로에 app.py 저장
+4단계 : 실행
+run_app 실행
+5단계 : 배포
+run_app 디렉토리 전체 압축하여 배포 (받은 사람은 압축을 풀어서 run_app 실행)
